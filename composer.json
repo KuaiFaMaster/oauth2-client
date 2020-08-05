@@ -1,0 +1,24 @@
+{
+    "name": "gw/oauth2-client",
+    "description": "游戏工场oauth客户端",
+    "keywords": ["gameworks","gw","oauth"],
+    "license" : "MIT",
+    "type" : "library",
+    "authors": [
+        {
+            "name": "KuaiFaMaster"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "shuber/curl": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gw\\Oauth2Client\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
